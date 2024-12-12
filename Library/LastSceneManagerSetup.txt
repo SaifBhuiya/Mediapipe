@@ -1,0 +1,6 @@
+sceneSetups:
+- path: Assets/MediaPipeUnity/Samples/Scenes/Pose Landmark Detection/Pose Landmark
+    Detection.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

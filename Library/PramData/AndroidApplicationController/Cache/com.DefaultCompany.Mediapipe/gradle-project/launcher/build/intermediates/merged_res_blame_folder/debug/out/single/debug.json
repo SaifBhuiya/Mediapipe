@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "E:\\Unity Projects\\Mediapipe\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.Mediapipe\\gradle-project\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    }
+]
