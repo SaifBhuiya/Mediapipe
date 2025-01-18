@@ -132,7 +132,7 @@ namespace Mediapipe.Unity
 
                 Armor.transform.localPosition = new Vector3((int)((position_x1*200)-100)*10,(int)(-(position_y1*100)-30)*10,60);
 
-                //print(position_x1);
+               //print(position_x1);
                 //print(position_y1);
                 //print(poseLandmarks.landmarks[11].x - poseLandmarks.landmarks[12].x);
                 // Armor.transform.localPosition = new Vector3((int)((position_x1*200) - 100)*10 ,     (int)(-(position_y1 * 100) - 110)*10 ,    -85);
@@ -162,10 +162,37 @@ namespace Mediapipe.Unity
                
                 float opp = poseLandmarks.landmarks[11].z - poseLandmarks.landmarks[12].z;
                 float adj = poseLandmarks.landmarks[11].x - poseLandmarks.landmarks[12].x;
-               // print("opp = " + opp);
-               // print("adj = " + adj);
+                // print("opp = " + opp);
+                // print("adj = " + adj);
 
-                Armor.transform.rotation = Quaternion.Euler(-90, 180 , - Mathf.Atan2(opp, adj) * (180 / Mathf.PI) + 30f * Time.deltaTime);
+
+
+                //Armor.transform.rotation = Quaternion.Euler(-90, 180 , - Mathf.Atan2(opp, adj) * (180 / Mathf.PI) + 30f * Time.deltaTime);
+
+                float threshold = .01f; // Minimum value to trigger rotation
+                float smoothSpeed = 20f; // Speed of rotation smoothing
+
+                // Check if input values are significant enough
+                if (Mathf.Abs(opp) > threshold || Mathf.Abs(adj) > threshold)
+                {
+                    // Calculate the angle from opp and adj
+                    float angle = Mathf.Atan2(opp, adj) * Mathf.Rad2Deg;
+
+                    // Define the target rotation
+                    Quaternion targetRotation = Quaternion.Euler(-90, 180, -angle);
+
+                    // Smoothly rotate towards the target
+                    Armor.transform.rotation = Quaternion.Lerp(
+                        Armor.transform.rotation,
+                        targetRotation,
+                        Time.deltaTime * smoothSpeed
+                    );
+                }
+
+
+
+
+
                 //Debug.Log(Mathf.Atan2(opp, adj) * (180/Mathf.PI));
 
 

@@ -1,0 +1,19 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl DF_Denim_FRONT_2670
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.045000 0.045000 0.045000
+Ns 9.901810
+illum 2
+map_Ka F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_diffuse_1001.png
+map_Kd F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_diffuse_1001.png
+map_bump F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_normal_1001.png
+newmtl Material1041664
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.900000 0.900000 0.900000
+Ns 128.000000
+illum 2
+map_Ka F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_diffuse_1001.png
+map_Kd F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_diffuse_1001.png
+map_bump F:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/SF/Unisex Denim Shirt Design_normal_1001.png
